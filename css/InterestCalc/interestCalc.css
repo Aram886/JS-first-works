@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 6rem;
+  font-size: 62.5%;
+  background-color: #bbbbbb;
+}
+
+h1 {
+  text-align: center;
+  color: #313131;
+  margin-bottom: 1.5rem;
+  font-size: 2.8rem;
+}
+
+form {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  max-width: 20rem;
+  margin: auto;
+  border-radius: 1rem;
+  padding-bottom: 2rem;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+form label {
+  font-size: 1.6rem;
+  padding-top: 1rem;
+}
+form label:first-child {
+  margin-top: 1.5rem;
+  padding-top: 0rem;
+}
+form input {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  outline: none;
+  border: 0.2rem solid hs1(0, 0%, 90%);
+  border-radius: 0.3rem;
+  width: 40%;
+  text-align: center;
+}
+form button {
+  margin-top: 0.8rem;
+  padding: 0.5rem;
+  background-color: lime;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+form p {
+  margin-top: 0.8rem;
+  font-size: 1.4rem;
+}
+form p span {
+  color: lime;
+  font-weight: bold;
+}/*# sourceMappingURL=interestCalc.css.map */
